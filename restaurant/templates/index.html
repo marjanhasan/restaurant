@@ -1,0 +1,31 @@
+{% extends 'base.html'%} {% load static %} {% block content %}
+
+<h1 class="text-center my-3 text-warning-emphasis">
+  Welcome to Salt Bae's Restaurant
+</h1>
+<div class="card mb-3 border-none">
+  <div class="row g-0">
+    <div class="col-md-7">
+      <div class="card-body" style="margin-top: 30%">
+        <h5 class="card-title fs-1 text-end text-warning-emphasis">
+          Nusr-Et Experience
+        </h5>
+        <p class="card-text text-end fs-5">
+          You will taste an exquisite menu You will be overwhelmed with
+          fantastic smells Everything you touch will be enchanting Everything
+          you hear will be fascinating You will see glorious people, delightful
+          presentations and incredible shows Be entertained, amused, and
+          pampered Experience luxury dining like never before Guaranteed...
+        </p>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <img
+        src="{% static 'home.jpg'%}"
+        class="img-fluid rounded-start"
+        alt="..."
+      />
+    </div>
+  </div>
+</div>
+{% endblock %}
